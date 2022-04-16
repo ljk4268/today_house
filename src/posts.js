@@ -9,7 +9,7 @@ async function fetchPosts(){
 }
 
 const PostTemplate = (post) => `
-    <a href="/today_house/detail.html?id=${post.id}">
+    <a href="./detail.html?id=${post.id}">
     <div class="posting-wrapper">
       <div class="posting-image-container">
         <img
